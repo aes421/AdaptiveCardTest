@@ -1,0 +1,24 @@
+{
+  "name": "docker_babel-plugin-jsx-adaptive-cards",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.51",
+    "@babel/plugin-syntax-jsx": "^7.0.0-beta.51",
+    "@babel/plugin-transform-runtime": "^7.0.0-beta.51",
+    "@babel/preset-env": "^7.0.0-beta.51",
+    "babel-plugin-jsx-adaptive-cards": "^0.2.6"
+  },
+  "dependencies": {
+    "adaptivecards": "^1.0.0",
+    "babel-loader": "^8.0.0-beta.3",
+    "clean-webpack-plugin": "^0.1.19",
+    "webpack": "^3.11.0"
+  }
+}

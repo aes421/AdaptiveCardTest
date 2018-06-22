@@ -1,0 +1,20 @@
+class BasicCard{
+    constructor(props){
+        this.props = props;
+    }
+    render(){
+        return(
+        <card>
+            <body>
+                <text>Hello {this.name()}!</text>
+            </body>
+        </card>
+        )
+    }
+
+    name(){
+        return "Ashley";
+    }
+}
+
+modules.export = BasicCard;

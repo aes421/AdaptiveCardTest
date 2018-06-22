@@ -1,0 +1,3 @@
+{
+    "plugins": ["babel-plugin-jsx-adaptive-cards", "@babel/plugin-syntax-jsx"]
+}
